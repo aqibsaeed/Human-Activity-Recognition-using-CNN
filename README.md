@@ -1,4 +1,4 @@
-# CNN for Human Activity Recognition in Tensorflow
+# CNN for Human Activity Recognition
 
 [Python notebook] (https://github.com/aqibsaeed/Human-Activity-Recognition-using-CNN/blob/master/Activity%20Detection.ipynb) for blog post [Implementing a CNN for Human Activity Recognition in Tensorflow] (http://aqibsaeed.github.io/2016-11-04-human-activity-recognition-cnn/). 
 
