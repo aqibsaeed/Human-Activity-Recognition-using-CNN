@@ -14,4 +14,8 @@ Python 2.7 is used during development and following libraries are required to ru
 
 The WISDM Actitracker dataset used for model training, can be downloaded from the following [[link]](http://www.cis.fordham.edu/wisdm/dataset.php)
 
+### Related Problem
+
+User identification from walking activity. Accelerometer dataset from 22 indivduals can be downloaded from the following [[link]](http://archive.ics.uci.edu/ml/datasets/User+Identification+From+Walking+Activity)
+
 
