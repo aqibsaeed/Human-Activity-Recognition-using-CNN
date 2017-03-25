@@ -1,6 +1,8 @@
-# CNN for Human Activity Recognition
+## CNN for Human Activity Recognition
 
-[Python notebook] (https://github.com/aqibsaeed/Human-Activity-Recognition-using-CNN/blob/master/Activity%20Detection.ipynb) for blog post [Implementing a CNN for Human Activity Recognition in Tensorflow] (http://aqibsaeed.github.io/2016-11-04-human-activity-recognition-cnn/). 
+<p>
+<a href="https://github.com/aqibsaeed/Human-Activity-Recognition-using-CNN/blob/master/Activity%20Detection.ipynb">Python notebook</a> for blog post <a href="http://aqibsaeed.github.io/2016-11-04-human-activity-recognition-cnn/">Implementing a CNN for Human Activity Recognition in Tensorflow</a>.
+</p>
 
 ### Tools Required
 
