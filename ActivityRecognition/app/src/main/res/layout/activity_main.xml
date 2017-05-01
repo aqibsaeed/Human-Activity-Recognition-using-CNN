@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="22dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="io.github.aqibsaeed.activityrecognition.MainActivity"
+    android:background="#ededed">
+
+    <TableRow
+        android:id="@+id/title_row"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="22dp"
+        android:textAlignment="center">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_weight="1"
+            android:text="@string/activity"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_weight="1"
+            android:text="@string/probability"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/downstairs_row"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="22dp">
+
+        <TextView
+            android:id="@+id/downstairs_title"
+            android:layout_weight="1"
+            android:text="@string/downstairs"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/downstairs_prob"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/jogging_row"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="22dp">
+
+        <TextView
+            android:id="@+id/jogging_title"
+            android:text="@string/jogging"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+        <TextView android:id="@+id/jogging_prob"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/sitting_row"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="22dp">
+
+        <TextView
+            android:id="@+id/sitting_title"
+            android:text="@string/sitting"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+        <TextView android:id="@+id/sitting_prob"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/standing_row"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="22dp">
+
+        <TextView
+            android:id="@+id/standing_title"
+            android:text="@string/standing"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+        <TextView android:id="@+id/standing_prob"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/upstairs_row"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="22dp">
+
+        <TextView
+            android:id="@+id/upstairs_title"
+            android:text="@string/upstairs"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+        <TextView android:id="@+id/upstairs_prob"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/walking_row"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="22dp">
+
+        <TextView
+            android:id="@+id/walking_title"
+            android:text="@string/walking"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+        <TextView android:id="@+id/walking_prob"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_weight="1"/>
+    </TableRow>
+</TableLayout>

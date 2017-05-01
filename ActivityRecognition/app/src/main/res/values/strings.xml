@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Activity Recognition</string>
+    <string name="activity">Activity</string>
+    <string name="probability">Probability</string>
+    <string name="downstairs">Downstairs</string>
+    <string name="jogging">Jogging</string>
+    <string name="sitting">Sitting</string>
+    <string name="standing">Standing</string>
+    <string name="upstairs">Upstairs</string>
+    <string name="walking">Walking</string>
+</resources>
