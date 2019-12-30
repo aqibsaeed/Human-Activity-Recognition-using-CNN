@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             normalize();
 
             // Copy all x,y and z values to input_signal
-            for(int i = 0; i < NUM_SAMPLES; i++)
+            for(int i = 0; i < N_SAMPLES; i++)
             {
               input_signal.set(i, x.get(i));
               input_signal.set(i, y.get(i));
