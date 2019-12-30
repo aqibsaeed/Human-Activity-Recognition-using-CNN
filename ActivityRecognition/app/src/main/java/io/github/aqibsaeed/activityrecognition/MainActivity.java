@@ -82,12 +82,13 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             // Mean normalize the signal
             normalize();
 
-            // Copy all x,y and z values to input_signal
-            for(int i = 0; i < N_SAMPLES; i++)
-            {
-              input_signal.set(i, x.get(i));
-              input_signal.set(i, y.get(i));
-              input_signal.set(i, z.get(i));
+            // Copy all x, y and z values to input_signal
+            int i = 0;
+            while (i < NUM_SAMPLES) {
+              input_signal.add(x.get(i));
+              input_signal.add(y.get(i));
+              input_signal.add(z.get(i));
+              i++;
             }
 
             // Perform inference using Tensorflow
